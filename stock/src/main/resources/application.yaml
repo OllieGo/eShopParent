@@ -1,9 +1,9 @@
 server:
-  port: 9000
+  port: 8000
 
 spring:
   cloud:
     nacos:
       server-addr: localhost:8848
       discovery:
-        service: order
+        service: stock
